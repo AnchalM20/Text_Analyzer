@@ -1,8 +1,5 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-def index(request):
-    pram={'name':'popo','place':'Dahisar'}
-    return render(request,'Baby.html',pram)
 
 def index1(request):
     return render(request,'index.html')    
